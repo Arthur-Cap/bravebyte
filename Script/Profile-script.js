@@ -8,5 +8,5 @@ passwordChange.addEventListener('click', function(event) {
 passwordChangeField.addEventListener('click', function(event) {
 
     passwordChangeField.style.display = 'none';
-    event.stopPropagation();
+    event.sstopPropagation();
 });
