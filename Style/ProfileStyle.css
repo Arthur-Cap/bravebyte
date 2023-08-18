@@ -206,9 +206,6 @@ body {
     border: 1px rgba(255, 255, 255, 0.385) solid;
     justify-content: center;
 }
-.payment-method{
-
-}
 .unavailable{
     color: rgba(240, 248, 255, 0.242);
 }
@@ -229,6 +226,7 @@ body {
 .change-password{
     margin: 20px;
     width: 400px;
+    position: relative;
 }
 .edit-pass{
     margin: 20px;
@@ -305,4 +303,18 @@ body {
     font-size: 1rem;
     border: 1px rgba(255, 255, 255, 0.385) solid;
     justify-content: center;
+}
+.basic-info1 input {
+    background-color: transparent !important;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    width: 65%;
+    pointer-events: none;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 3rem;
 }
